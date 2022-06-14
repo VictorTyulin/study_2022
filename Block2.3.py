@@ -42,6 +42,6 @@ while do != "exit":
         print(math.factorial(number1))
     elif do == "arcc":
         number1 = float(input("Введите число: "))
-        number11 = number1*math.pi/180
-        print(math.acos(number11))
+        number1 = number1*math.pi/180
+        print(math.acos(number1))
     do = input("Введите символ операции ((+, -, /, *, **, mod, rand, fact, arcc) или введите exit, что бы закончить: ")
